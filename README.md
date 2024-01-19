@@ -85,30 +85,43 @@ yarn install
 * Start backend
 ```
 yarn run start
+or npm start
 ```
 ### Start storefront
 * Go to 'web/store/react'
 * Install dependencies
 ```
-yarn install
+nvm use 12 #node version 12
+yarn install or npm i
+
 ```
 * Buld storefront
 ```
 yarn run build:dev
+
 ```
+
 * Start storefront
 ```
 yarn run start
+or 
+npm run start:dev
+
 ```
 ### Start Backoffice
 * Go to 'web/admin/react'
+
 * Install dependencies
+nvm use 12 #node version 12
 ```
-yarn install
+yarn install or npm i
 ```
 * Start Backoffice
 ```
 yarn run start
+or
+npm start
+
 ```
 
 ## License

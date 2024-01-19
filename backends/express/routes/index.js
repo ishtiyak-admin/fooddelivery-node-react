@@ -2,6 +2,7 @@ import express from 'express';
 import configureApiRoutes from './api';
 import configureFilesRoutes from './files';
 
+
 const router = express.Router();
 
 configureApiRoutes(router);
@@ -12,3 +13,4 @@ router.all('*', (req, res) => {
 });
 
 export default router;
+console.log ("hi");
